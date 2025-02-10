@@ -84,83 +84,90 @@
         </article>
       </section>
 
-      <section id="about">
-        <img src="./assets/img/user_01.svg" alt="Foto do Perfil do Github" />
+      <!-- Seção about - sobre -->
 
-        <article id="about-texto">
-          <h1>Sobre Mim</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+      <section class="flex about_container" id="about">
 
-          <div id="about_github">
-            <a href="https://github.com/JunoPrice"
-            target="_blank"
-            class="botao"
-            >
-              Github
-            </a>
-            <p>200 Seguidores</p>
-            <p>20 Repositórios</p>
-          </div>
+        <article  class="about_img">
+            <img src="./assets/img/user_01.svg" alt="Foto do Perfil do Github">
         </article>
-      </section>
+        
 
-      <section id="contact">
-        <h4>Contate-me</h4>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa,
-          laboriosam ipsam molestias at officiis sequi quae delectus dignissimos
-          pariatur voluptate necessitatibus quaerat iste reprehenderit, itaque
-          odit modi ipsa! Porro, hic?
-        </p>
-        <div id="icones_redes_sociais">
-          <a href="https://www.linkedin.com/in/jonas-neto/" target="_blank">
-            <img src="./assets/img/linkedin.svg" alt="logo do Linkedin" />
-          </a>
-          <a href="https://www.linkedin.com/in/jonas-neto" target="_blank">
-            <img src="./assets/img/github.svg" alt="logo do Github" />
-          </a>
-          <a href="https://www.instagram.com/junoprice/" target="_blank">
-            <img src="./assets/img/instagram.svg" alt="logo do Instagram" />
-          </a>
-        </div>
+        <article class="flex about_content" id="about_texto">
+            <h1>Sobre mim</h1>
 
-        <form action="sucess.html" method="post">
-          <label for="nome">Nome</label>
-          <input
-            id="nome"
-            type="text"
-            name="nome"
-            placeholder="Digite o seu nome: "
-          />
-          <span id="txtNome"></span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis rem placeat quod impedit sit
+                inventore, suscipit nihil, fugit, veritatis eveniet dolorem exercitationem? Ipsum reiciendis nam
+                dicta. Provident laudantium dolorum quia.</p>
 
-          <label for="email">E-mail</label>
-          <input
-            id="email"
-            type="text"
-            name="email"
-            placeholder="Digite o seu e-mail: "
-          />
-          <span id="txtEmail"></span>
+            <div class="flex about_github" id="about_github">
+                <a class="botao" href="https://github.com/JunoPrice" target="_blank">Github</a>
 
-          <label for="assunto">Assunto</label>
-          <input
-            id="assunto"
-            type="text"
-            name="assunto"
-            placeholder="Digite o assunto da mensagem: "
-          />
-          <span id="txtAssunto"></span>
+                <p>5 Seguidores</p>
+                <p>22 Repositórios</p>
+            </div>
+        </article>
+    </section>
 
-          <label for="mensagem">Mensagem</label>
-          <textarea id="" name="mensagem" placeholder="Digite a sua mensagem: ">
-          </textarea>
-          <button type="submit"></button>
-        </form>
-      </section>
+
+          <!-- Seção contato -->      
+          <section id="contact">
+
+            <h4>Contate-me</h4>
+            <p></p>
+            <div id="icones_redes_sociais">
+                <a href="https://www.linkedin.com/in/jonas-neto/" target="_blank">
+                    <img src="./assets/img/linkedin.svg" alt="Logo do Linkedin">
+                </a>
+
+                <a href="https://github.com/JunoPrice" target="_blank">
+                    <img src="./assets/img/github.svg" alt="Logo do Github">
+                </a>
+
+                <a href="https://www.instagram.com/junoprice/" target="_blank">
+                    <img src="./assets/img/instagram.svg" alt="Logo do Instagram">
+                </a>
+            </div>
+
+
+            <form onsubmit="window.location.href='sucess.html'; return false;">
+                <label for="nome">Nome</label>
+                <input id="nome" 
+                type="text" 
+                name="nome" 
+                placeholder="Digite o seu nome">
+                <span id="txtNome"></span>
+
+                <label for="email">E-mail</label>
+                <input id="email" 
+                type="text" 
+                name="email" 
+                placeholder="Digite o seu e-mail">
+                <span id="txtEmail"></span>
+
+                <label for="assunto">Assunto</label>
+                <input id="assunto" 
+                type="text" 
+                name="assunto" 
+                placeholder="Digite o assunto da mensagem">
+                <span id="txtAssunto"></span>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" 
+                name="mensagem" 
+                placeholder="Digite sua mensagem"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+        </section>
     </main>
 
     <!-- Rodapé da Página -->
-    <footer>Feito com ❤️ por Jonas Gomes 👩‍🚀- 2025</footer>
+    <footer class="flex footer_container">
+
+        Feito com ❤️ por Jonas Gomes 👩‍🚀- 2025
+
+    </footer>
   </body>
 </html>
