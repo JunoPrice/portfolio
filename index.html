@@ -1,44 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Projeto Portfólio de Jonas Gomes"
-    />
-    <meta name="author" content="Jonas Gomes" />
-    <meta name="keywords" content="HTML, CSS, Javascript" />
-    <link rel="icon" href="./assets/img/favicon.svg" />
-    <title>Portfólio Jonas Gomes</title>
-  </head>
-  <body>
-    <!-- Cabeçalho da Página -->
-    <header>
-      <!--Título do Cabeçalho -->
-      <div id="header_content">
-        <div id="titulo">
-          <h1>Portfólio Jonas Gomes</h1>
-          <h1>Tema: Universo</h1>
-        </div>
 
-        <div id="menu">
-          <nav>
-            <!-- Marcadores não Ordenados -->
-            <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">Sobre</a></li>
-              <li><a href="">Contato</a></li>
-            </ul>
-          </nav>
+      <!-- Fontes do Google -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     
+      <!-- Fonte do Google - Poppins -->
+      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <meta name="description"content="Projeto Portfólio de Jonas Gomes"/>
+     <meta name="author" content="Jonas Gomes" />
+     <meta name="keywords" content="HTML, CSS, Javascript" />
+     <link rel="icon" href="./assets/img/favicon.svg" />
+
+      <!-- Link para a Folha de Estilo CSS -->
+     <link rel="stylesheet" href="./assets/css/styles.css">
+
+      <title>Portfólio Jonas Gomes</title>
+  </head>
+
+
+  <body>
+
+       <!-- Cabeçalho da Página -->
+    <header class="flex menu_container">
+
+      <div id="header_content" class="menu_content">
+
+          <!--Título do Cabeçalho -->
+            <div id="titulo">
+                <a href="#">Universo</a>
+            </div>
+
+          <!-- Menu -->
+          <div id="menu" class="flex">
+             <nav>
+                  <!-- Marcadores não Ordenados -->
+                  <ul class="flex menu_list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Contato</a></li>
+                  </ul>
+               </nav>
+            </div>
         </div>
-      </div>
     </header>
 
     <!-- Sessão Principal da Página -->
     <main>
-      <section id="home">
-        <article id="home-texto">
+
+      <!-- Seção home -->
+      <section id="home" class="flex home_container">
+
+        <!-- Texto da Seção Home -->
+        <article id="home-texto" class="flex home_content">
+          
           <h4>Bem Vindo ao novo universo</h4>
           <h1>Mundos Diferentes para Pessoas Diferentes</h1>
           <p>
@@ -47,10 +67,16 @@
             quibusdam ipsa expedita possimus, dicta doloribus inventore placeat
             sed vero in sapiente.
           </p>
-          <a href="https://github.com/JunoPrice" target="_blank"> Explorar </a>
+            <a href="https://github.com/JunoPrice" 
+             target="_blank"
+             class="botao"
+            > 
+            Explorar 
+           </a>
         </article>
 
-        <article id="home-imagem">
+        <!-- Imagem da Seção Home -->
+        <article id="home-imagem" class="home_content">
           <img
             src="./assets/img/astronauta.svg"
             alt="Capacete de Astronauta Animado"
@@ -66,8 +92,11 @@
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
 
           <div id="about_github">
-            <a href="https://github.com/JunoPrice" target="_blank">
-              github
+            <a href="https://github.com/JunoPrice"
+            target="_blank"
+            class="botao"
+            >
+              Github
             </a>
             <p>200 Seguidores</p>
             <p>20 Repositórios</p>
