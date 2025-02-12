@@ -13,14 +13,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Projeto Portfólio">
-    <meta name="author" content="Jonas Gomes">
+    <meta name="author" content="Rafael Queiróz">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" href="./assets/img/favicon.svg" />
 
     <!--  Link para a Folha de Estilos CSS -->
     <link rel="stylesheet" href="./assets/css/styles.css">
 
-    <title>Portfólio do Jonas</title>
+    <title>Portfólio do Rafael</title>
 </head>
 
 <body>
@@ -32,7 +32,7 @@
 
             <!-- Título do Cabeçalho -->
             <div id="titulo">
-                <a href="#">Portfólio - Jonas Gomes</a>
+                <a href="#">Universo</a>
             </div>
 
             <!-- Menu -->
@@ -59,12 +59,13 @@
             <!-- Texto da Seção Home -->
             <article id="home_texto" class="flex home_content">
 
-                <h4>Bem-vindo ao Meu Portifólio</h4>
-                <h1>Construindo software para impactar o mundo</h1>
-                <p>Apaixonado por criar soluções e me capacitando diariamente para se tornar um desenvolvedora full stack. Tecnologias exploradas até aqui: HTML, CSS, JavaScript/TypesScript, Node.js, Nest.js e MySQL !</p><p>Conheça meus projetos:</p>
-                </p>
-                <a href="https://github.com/JunoPrice" target="_blank" class="botao">
-                    Clique e confira
+                <h4>Bem-vindo ao Novo Universo</h4>
+                <h1>Mundos diferentes para pessoas diferentes</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam ipsum eum sapiente maiores adipisci
+                    aperiam sint dignissimos molestias voluptas expedita doloribus consequatur saepe maxime, tempore
+                    modi eligendi, eius, eos itaque.</p>
+                <a href="https://github.com/rafaelq80" target="_blank" class="botao">
+                    Explorar
                 </a>
 
             </article>
@@ -79,8 +80,6 @@
         <!-- Seção sobre -->
         <section id="about" class="flex sobre_container">
 
-
-
         </section>
 
         <!-- Seção de Contato -->
@@ -88,27 +87,29 @@
 
             <article id="redes_sociais" class="contato_content">
                 <h4>Contate-me</h4>
-                <p>Ficou curioso para me conhecer melhor? Quer saber mais sobre os projetos que estou desenvolvendo? Ou como posso fazer a diferença e ser parte do seu time? Vamos nos conectar!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum quae voluptas error omnis,
+                    deleniti molestiae dolores earum incidunt sint minus magni sunt maiores minima, cumque quam numquam
+                    officia obcaecati perspiciatis.</p>
 
                 <!-- Redes Sociais -->
                 <div id="icones_redes_sociais" class="social_container">
-                    <a href="https://www.linkedin.com/in/jonas-neto/" target="_blank">
+                    <a href="" target="_blank">
                         <img src="./assets/img/linkedin.svg" alt="Logo do LinkedIn" class="social_icon">
                     </a>
-                    <a href="https://github.com/JunoPrice" target="_blank">
+                    <a href="" target="_blank">
                         <img src="./assets/img/github.svg" alt="Logo do Github" class="social_icon">
                     </a>
-                    <a href="https://www.instagram.com/junoprice/" target="_blank">
+                    <a href="" target="_blank">
                         <img src="./assets/img/instagram.svg" alt="Logo do Instagram" class="social_icon">
                     </a>
                 </div>
             </article>
 
             <!-- Formulário de Contato -->
-            <form action="https://formsubmit.co/jonas.3636@hotmail.com" method="POST" id="formulario">
-               
-                    <input type="hidden" name="_next" value="http://127.0.0.1:5501/sucess.html">
-                    <input type="hidden" name="_captcha" value="false">
+            <form action="https://formsubmit.co/7065d88cfa92a310a1da3b7a5effb0c9" method="POST" id="formulario">
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucess.html">
+                <input type="hidden" name="_captcha" value="false">
 
                 <label for="nome">Nome</label>
                 <input id="nome" type="text" name="nome" placeholder="Digite o seu nome">
@@ -134,11 +135,11 @@
 
     <!-- Rodapé da Página -->
     <footer>
-      Feito com ❤️ por Jonas Gomes 👩‍🚀- 2025
+        Feito com 🧡 por Rafael Queiróz - 2025
     </footer>
 
     <!-- Script JavaScript -->
-     <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 
 </body>
 
